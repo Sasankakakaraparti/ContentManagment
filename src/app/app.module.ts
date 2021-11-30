@@ -10,6 +10,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ContentpageComponent } from './contentpage/contentpage.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     MainPageComponent,
     NavComponent,
     HomeComponent,
-    ForgotPasswordComponent
+    ForgotPasswordComponent,
+    ContentpageComponent
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,

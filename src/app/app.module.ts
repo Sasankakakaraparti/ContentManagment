@@ -11,6 +11,8 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ContentpageComponent } from './contentpage/contentpage.component';
+import { LandingComponent } from './landing/landing.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { ContentpageComponent } from './contentpage/contentpage.component';
     NavComponent,
     HomeComponent,
     ForgotPasswordComponent,
-    ContentpageComponent
+    ContentpageComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,

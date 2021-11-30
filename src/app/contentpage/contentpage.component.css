@@ -13,9 +13,9 @@
     display: flex;
     width: 70%;
     height: 60vh;
-    background-color: #1a1a1a;
-    box-shadow: 2px 12px 20px rgba(0,0,0,0.2);
-    border: 1px solid rgba(155, 11, 11, 0.01)
+    background-color:green;
+    box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid white
   }
   
   .contact-left{

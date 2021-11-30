@@ -14,10 +14,10 @@
     }
     .cont-two{
       margin-top: 0px;
-      background: white;
+      background: rgb(255, 255, 255);
       width: 20%;
       height: 100%;
-      text-align: center;
+      text-align: left;
       padding: 40px 0;
       float: left;
       margin-left: 0px;

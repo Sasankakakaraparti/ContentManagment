@@ -12,6 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ContentpageComponent } from './contentpage/contentpage.component';
 import { LandingComponent } from './landing/landing.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { SuccesfullComponent } from './succesfull/succesfull.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { LandingComponent } from './landing/landing.component';
     HomeComponent,
     ForgotPasswordComponent,
     ContentpageComponent,
-    LandingComponent
+    LandingComponent,
+    AboutusComponent,
+    SuccesfullComponent
   ],
   imports: [
     BrowserModule,FormsModule,ReactiveFormsModule,

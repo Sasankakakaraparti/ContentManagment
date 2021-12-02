@@ -8,6 +8,9 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { RegisterPageComponent } from './register-page/register-page.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ContentpageComponent } from './contentpage/contentpage.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import {  SuccesfullComponent} from './succesfull/succesfull.component';
+
 
 const routes: Routes = [
   {path:'',component:LandingComponent},
@@ -16,7 +19,11 @@ const routes: Routes = [
   {path:'login',component:LoginComponent},
   {path:'landing',component:LandingComponent},
   {path:'forgot-password',component:ForgotPasswordComponent},
-  {path:'contentpage',component:ContentpageComponent}
+  {path:'contentpage',component:ContentpageComponent},
+  {path:'post',component:SuccesfullComponent},
+
+
+  {path:'continue',component:AboutusComponent}
   
   
 
